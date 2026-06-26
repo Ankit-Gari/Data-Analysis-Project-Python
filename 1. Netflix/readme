@@ -1,0 +1,176 @@
+# 🎬 Netflix Movies Exploratory Data Analysis (EDA)
+
+An Exploratory Data Analysis (EDA) project performed on a Netflix movies dataset using **Python**, **Pandas**, **NumPy**, **Matplotlib**, and **Seaborn**.
+
+The objective of this project is to analyze movie trends, genres, popularity, ratings, and release years by answering a set of analytical questions through data cleaning, visualization, and statistical exploration.
+
+---
+
+## 📂 Project Structure
+
+```
+├── dataset/
+│   └── mymoviedb.csv          # Dataset used for analysis
+│
+├── pythonfile/
+│   └── Netflix_EDA.ipynb      # Jupyter Notebook containing complete analysis
+│
+└── README.md
+```
+
+---
+
+## 📊 Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+---
+
+## 📁 Dataset
+
+The project uses a movie dataset containing information such as:
+
+- Movie Title
+- Genre
+- Popularity
+- Vote Average
+- Vote Count
+- Release Date
+- Original Language
+- Overview
+
+---
+
+## 🔍 Business Questions Answered
+
+### 1. What is the most frequent movie genre?
+
+- Identified the genre that appears most frequently in the dataset.
+
+---
+
+### 2. Which genres receive the highest average ratings?
+
+Movies were categorized based on their average votes to determine:
+
+- Popular
+- Above Average
+- Average
+- Below Average
+
+The analysis highlights which genres consistently receive higher audience ratings.
+
+---
+
+### 3. Which movie has the highest popularity?
+
+- Identified the most popular movie in the dataset.
+- Displayed its corresponding genre.
+
+---
+
+### 4. Which movie has the lowest popularity?
+
+- Identified the least popular movie.
+- Displayed its corresponding genre.
+
+---
+
+### 5. Which year had the highest number of movie releases?
+
+Analyzed release years to determine:
+
+- The year with the maximum number of movies released.
+- Number of movies released during that year.
+
+---
+
+## 📈 Visualizations
+
+The notebook includes multiple visualizations such as:
+
+- Genre frequency charts
+- Rating distribution plots
+- Popularity comparisons
+- Release year analysis
+- Count plots and bar charts
+
+These visualizations help uncover trends and make the insights easier to interpret.
+
+---
+
+## 📌 Project Workflow
+
+1. Import required libraries
+2. Load the dataset
+3. Inspect dataset structure
+4. Clean missing and unnecessary data
+5. Perform exploratory data analysis
+6. Create visualizations
+7. Answer analytical questions
+8. Draw insights from the results
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/your-repository.git
+```
+
+2. Navigate to the project
+
+```bash
+cd your-repository
+```
+
+3. Install dependencies
+
+```bash
+pip install pandas numpy matplotlib seaborn jupyter
+```
+
+4. Launch Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+5. Open:
+
+```
+pythonfile/Netflix_EDA.ipynb
+```
+
+---
+
+## 📌 Key Learning Outcomes
+
+- Data Cleaning using Pandas
+- Data Manipulation
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Identifying Trends and Patterns
+- Working with Real-world Datasets
+- Generating Insights from Data
+
+---
+
+## 📜 License
+
+This project is intended for educational and learning purposes.
+
+---
+
+## 👨‍💻 Author
+
+**Ankit Gari**
+
+If you found this project helpful, consider giving the repository a ⭐.
