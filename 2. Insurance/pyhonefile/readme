@@ -1,0 +1,143 @@
+# 🏥 Insurance Cost Prediction using Machine Learning
+
+A data preprocessing and exploratory data analysis (EDA) project focused on predicting **medical insurance charges** based on demographic and lifestyle factors.
+
+This repository currently contains the complete data analysis and feature engineering pipeline. Machine Learning model training and evaluation will be added in the next phase.
+
+---
+
+## 📌 Project Objective
+
+The goal of this project is to build a Machine Learning model capable of predicting an individual's **medical insurance charges** using features such as:
+
+- Age
+- Gender
+- BMI (Body Mass Index)
+- Number of Children
+- Smoking Status
+- Residential Region
+
+Before training the model, the dataset is explored, cleaned, and transformed to ensure high-quality inputs for Machine Learning algorithms.
+
+---
+
+## 📂 Dataset
+
+**Dataset Used:** `insurance.csv`
+
+The dataset contains demographic and health-related information along with the corresponding insurance charges.
+
+### Features
+
+| Feature | Description |
+|---------|-------------|
+| age | Age of the individual |
+| sex | Gender |
+| bmi | Body Mass Index |
+| children | Number of dependent children |
+| smoker | Smoking status |
+| region | Residential region |
+| charges | Medical insurance charges (Target Variable) |
+
+---
+
+## 📊 Exploratory Data Analysis (EDA)
+
+The notebook includes:
+
+- Dataset overview
+- Data shape and information
+- Missing value inspection
+- Duplicate value checking
+- Statistical summary
+- Distribution analysis
+- Correlation analysis
+- Outlier detection
+- Feature relationships with insurance charges
+
+Various visualizations are used to better understand how each feature influences insurance costs.
+
+---
+
+## ⚙️ Feature Engineering
+
+The preprocessing pipeline includes:
+
+- Handling categorical variables
+- Encoding categorical features
+- Feature extraction
+- Data transformation
+- Preparing the dataset for Machine Learning
+
+The final processed dataset is suitable for training regression models.
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
+
+---
+
+## 📁 Repository Structure
+
+```
+.
+├── insurance.csv
+├── insurance data cleaning for ML.ipynb
+└── README.md
+```
+
+---
+
+## 🚀 Future Work
+
+The next phase of this project will include:
+
+- Data Splitting (Train/Test)
+- Feature Scaling
+- Model Training
+  - Linear Regression
+  - Decision Tree Regressor
+  - Random Forest Regressor
+  - XGBoost
+- Hyperparameter Tuning
+- Model Evaluation
+- Performance Comparison
+- Saving the Best Model
+- Prediction on New Data
+
+---
+
+## 📈 Expected Outcome
+
+Develop a regression model capable of accurately estimating medical insurance charges based on an individual's demographic and lifestyle information.
+
+---
+
+## 🎯 Learning Outcomes
+
+This project demonstrates:
+
+- Exploratory Data Analysis (EDA)
+- Data Cleaning
+- Feature Engineering
+- Data Preprocessing
+- Preparing real-world datasets for Machine Learning
+- Building a complete ML workflow (ongoing)
+
+---
+
+## 👨‍💻 Author
+
+**Ankit Gari**
+
+Information Technology Student | Data Analytics & Machine Learning Enthusiast
+
+GitHub: https://github.com/Ankit-Gari
